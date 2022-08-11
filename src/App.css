@@ -1,0 +1,52 @@
+.header{
+  text-align : center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .header {
+    animation: header-spin infinite 10s linear;
+  }
+}
+
+@keyframes header-spin {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.counter{
+  text-align: center;
+}
+
+.buttonAlign{
+  display: flex;
+  width: 25%;
+  flex-direction: column;
+  margin-left: 40%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.fullPagePaper{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  height: 700px;
+  padding-top: 30px;
+}
+
+.counterPaper{
+  width: 40%;
+  height: 30%;
+  margin-left: 30%;
+  padding: 30px;
+}
+
+.cardCounter{
+  width: 25%;
+  margin-left: 40%;
+}
